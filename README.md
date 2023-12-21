@@ -19,7 +19,7 @@ Default setting epoch=40,and the training processing of Lenet is as follows:
 Obviously,model overfitting due to data scarcity.
 
 Default setting epoch=20,and the training processing of FasterRCNN is as follows:
-![Alt text](fast-curve.png)
+![Alt text](asserts/fast-curve.png)
 
 ## Test Output
 
