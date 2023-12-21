@@ -38,14 +38,21 @@ completed_Lenet_A+B/
 │   │   └── explantions/      # Training annotations
 │   │   └── outputs/          # Training labels
 │
-├── Lenet_A+B.ipynb           # Source code
+├── Lenet_A+B.ipynb           # Source code using Lenet network
 |
-├── lenet_csv/                # Test outputs using csv
+├── FasterRCNN_A+B/           # Source code using FastRCNN 
+│   └── FasterRCNN_A+B.ipynb  # Source code using FastRCNN network
+|   └── outputs/              # # Test outputs using txt using FastRCNN network
+│     └── 1.txt               # picture 1 predication using FastRCNN network
+│     └── 2.txt               # picture 2 predication using FastRCNN network
+│     └── ...
+|
+├── lenet_csv/                # Test outputs using Lenet network
 │   └── predications.csv      # Notebooks for data 
 |
-├── outputs/                # Test outputs using txt
-│   └── 1.txt               # picture 1 predication
-│   └── 2.txt               # picture 2 predication
+├── outputs/                # Test outputs using Lenet network
+│   └── 1.txt               # picture 1 predication using Lenet network
+│   └── 2.txt               # picture 2 predication using Lenet network
 │   └── ...
 |
 |analysis and prototype testing
