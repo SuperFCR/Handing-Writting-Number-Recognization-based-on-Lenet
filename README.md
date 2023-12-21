@@ -1,4 +1,4 @@
-# Handwrtting Number Recognization based on LeNeT 
+# Handwritting Number Recognization based on LeNeT 
 ## Prework
 Create your own virtural environment based on conda.
 ```bash
