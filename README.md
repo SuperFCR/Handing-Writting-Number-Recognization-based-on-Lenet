@@ -14,9 +14,12 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 We Training the model using **Tesla V100 16GB** in Google Colab for free,and make sure place the documents in correct place before running. 
 
 
-Default setting epoch=40,and the training processing is as follows:
+Default setting epoch=40,and the training processing of Lenet is as follows:
 ![Alt text](image.png)
 Obviously,model overfitting due to data scarcity.
+
+Default setting epoch=20,and the training processing of FasterRCNN is as follows:
+![Alt text](fast-curve.png)
 
 ## Test Output
 
